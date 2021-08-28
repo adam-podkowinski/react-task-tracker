@@ -22,13 +22,13 @@ body {
 
 .header {
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
 }
 
 .btn {
-  display: inline-block;
   background: #000;
   color: #fff;
   border: none;
@@ -58,7 +58,6 @@ body {
   background: #f4f4f4;
   margin: 5px;
   padding: 10px 20px;
-  cursor: pointer;
 }
 
 .task.reminder {
@@ -69,6 +68,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  cursor: pointer;
 }
 
 .add-form {
